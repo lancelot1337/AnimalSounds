@@ -1,0 +1,19 @@
+{
+  "name": "animalsounds",
+  "version": "1.0.0",
+  "description": "A Node.js app to handle different end points which corresponds to their Animal Sounds.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/lancelot1337/AnimalSounds.git"
+  },
+  "author": "lancelot",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lancelot1337/AnimalSounds/issues"
+  },
+  "homepage": "https://github.com/lancelot1337/AnimalSounds#readme"
+}
