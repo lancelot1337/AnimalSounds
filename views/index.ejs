@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Animal Sounds</title>
+    <% include ../partials/head.ejs%>
 </head>
 <body>
-    <button><a href="http://localhost:3000">Home</a></button>
-    <button><a href="http://localhost:3000/bat">Bat</a></button>
-    <button><a href="http://localhost:3000/bear">Bear</a></button>
-    <button><a href="http://localhost:3000/bee">Bee</a></button>
-    <button><a href="http://localhost:3000/cat">Cat</a></button>
-    <button><a href="http://localhost:3000/cow">Cow</a></button>
-    <button><a href="http://localhost:3000/crow">Crow</a></button>
-    <button><a href="http://localhost:3000/dog">Dog</a></button>
-    <button><a href="http://localhost:3000/duck">Duck</a></button>
-    <button><a href="http://localhost:3000/pig">Pig</a></button>
-    <button><a href="http://localhost:3000/whale">Whale</a></button>
-    <p><span> <%= sound %> </span></p>
+    <% include ../partials/bootstrapNav.ejs %>
+    <% include ../partials/cssNav.ejs %>
+    <div class="jumbotron">
+        <a href="http://localhost:3000">Home</a>
+        <a href="http://localhost:3000/bat">Bat</a>
+        <a href="http://localhost:3000/bear">Bear</a>
+        <a href="http://localhost:3000/bee">Bee</a>
+        <a href="http://localhost:3000/cat">Cat</a>
+        <a href="http://localhost:3000/cow">Cow</a>
+        <a href="http://localhost:3000/crow">Crow</a>
+        <a href="http://localhost:3000/dog">Dog</a>
+        <a href="http://localhost:3000/duck">Duck</a>
+        <a href="http://localhost:3000/pig">Pig</a>
+        <a href="http://localhost:3000/whale">Whale</a>
+
+        <p><span> <%= text %> </span><span>  <%= sound %> </span></p>
+    </div>
 </body>
 </html>
+

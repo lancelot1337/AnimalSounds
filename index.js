@@ -22,12 +22,14 @@ var soundsObj = {
 app.get(`/`, (req, res) => {
     //res.send(`Hello World!`);
     res.render(`index.ejs`, {
+        text: `Press any button to see Animal's sound!`,
         sound: ``
     });
 });
 
 app.get(`/:id`, (req, res) => {
     res.render(`index.ejs`, {
+        text: `Sound: `,
         sound: soundsObj[req.params.id]
     });
 });
