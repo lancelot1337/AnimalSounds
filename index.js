@@ -1,4 +1,4 @@
-/* jshint esversion:  */
+/* jshint esversion: 6*/
 
 //Dependencies
 const express   = require(`express`);
@@ -17,7 +17,7 @@ var soundsObj = {
     pig:    `oink`,
     whale:  `sing`,
 
-}
+};
 
 app.get(`/`, (req, res) => {
     res.send(`Hello World!`);
