@@ -20,7 +20,10 @@ var soundsObj = {
 };
 
 app.get(`/`, (req, res) => {
-    res.send(`Hello World!`);
+    //res.send(`Hello World!`);
+    res.render(`index.ejs`, {
+        sound: ``
+    });
 });
 
 app.get(`/:id`, (req, res) => {
