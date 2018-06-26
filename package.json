@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/lancelot1337/AnimalSounds/issues"
   },
-  "homepage": "https://github.com/lancelot1337/AnimalSounds#readme"
+  "homepage": "https://github.com/lancelot1337/AnimalSounds#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
